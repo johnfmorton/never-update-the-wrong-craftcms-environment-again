@@ -1,0 +1,22 @@
+#global-sidebar {
+    background: rgb(255, 223, 223);
+}
+
+#global-container {
+    background: rgb(255, 212, 212);
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../staging_id.png);
+    background-size: 100px 100px;
+    filter: grayscale(100%); /* Apply your filter here */
+    opacity: 0.025; /* Adjust opacity as needed */
+    z-index: 100;
+    pointer-events: none;
+}
