@@ -10,4 +10,4 @@ This directory is meant to be used with Craft CSM 5.x and the Control Panel CSS 
 2. Update your `.env` files in your local development and staging sites to include the `web` directory path. For example, `CP_CSS_PATH="/static/css/cp_dev.css` or `/static/css/cp_staging.css`. Leave it unset or blank for production.
 3. Set the Control Panel CSS plugin to use the path to the CSS file with the `$CP_CSS_PATH` variable.
 
-Read more at SuperGeekery.com.
+These files are part of the post, _[Never mistake your production, staging and local environments with Craft CMS](https://supergeekery.com/blog/never-mistake-your-production-staging-and-local-environments-with-craft-cms)_, at SuperGeekery.com.
